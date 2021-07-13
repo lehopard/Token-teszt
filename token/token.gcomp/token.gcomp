@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="7FAD090F233FC2D1D260CF64640BADAEBA44CF2D85CB578FDCAC5E68EA31CE333C4C2EE97CE71359D34F0E2F132A84E9773932C002F6DED30C65E4C50CD1AD22" Timestamp="1D7770BADA18919" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<ComponentDefinition DefaultConfigurationName="Configuration1" Id="d8240ee5509c45d3a9bfb290cd77f99a" RootNamespaceId="f336098196db4d28bdecdfdc71b143c4" xmlns="http://www.ni.com/GComponent.xsd">
+		<Icon Id="865ba9df9014b65a150f5e66f83a675" ListViewIconCrop="0 0 40 40" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]40" Id="5fcb5757f67e43cc8e6c0861a46e774a" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]40">
+				<IconTemplate Height="[float]40" Id="f0c5edcf72954badac9a0ca29265602a" Left="[float]0" TemplateName="[string]Blank" Top="[float]0" Width="[float]40" />
+			</IconPanel>
+		</Icon>
+		<CompilerSymbolTable Id="12655b28f6b44d486e3df540abb0f61" xmlns="http://www.ni.com/PlatformFramework" />
+		<ComponentConfiguration ComponentSubtypeIdentifier="WebApplication" Id="5a45500c003c46149edfdfa176ffbc16" Name="Configuration1">
+			<CompilerSymbolTable Id="19f6f3731cca4ba1b8f4cadb71b784bf" xmlns="http://www.ni.com/PlatformFramework" />
+			<WebApplicationOutputTypeProperties Id="c7f28bfc78614423af3a49f0a863dace" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" />
+		</ComponentConfiguration>
+	</ComponentDefinition>
+	<EnvoyManagerFile Id="5a766952711646ae964c2fe2ff522874" xmlns="http://www.ni.com/PlatformFramework">
+		<EnvoyManagerRootEnvoy Id="4b333de50ef4424095b89dc85ae5f54b" ModelDefinitionType="EnvoyManagerRootEnvoy" Name="RootEnvoy" />
+		<EmbeddedDefinitionReference Id="c8e1df8885e64f3cb4e771801eccb1c7" ModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentDefinitionEnvoyHierarchyRoot" Name="Global namespace">
+			<ComponentDefinitionEnvoyHierarchyRoot xmlns="http://www.ni.com/GComponent.xsd" />
+			<NameScopingEnvoy AutomaticallyResolveUp="True" Id="f336098196db4d28bdecdfdc71b143c4" Name="token" />
+		</EmbeddedDefinitionReference>
+		<NameScopingEnvoy Id="af6ebf6367544ebcb8f9ef7280b0053c" Name="token.gcomp" NameTracksFileName="True">
+			<ContentReference ContentIdentifier="5a45500c003c46149edfdfa176ffbc16" Id="37f6ece4e4bc4547a27932082b106ff3" Name="Configuration1" OverridingModelDefinitionType="{http://www.ni.com/GComponent.xsd}ComponentConfiguration" />
+		</NameScopingEnvoy>
+	</EnvoyManagerFile>
+</SourceFile>

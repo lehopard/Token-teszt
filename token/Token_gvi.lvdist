@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="C8A04C453A171CCA74D072AA2839F5509C3A71F0D56B582B33562CC544E488E0B9D8CCBBD648EC596128A66EE856C04867879430F9F72D94F6B69289FDA9BA06" Timestamp="1D7770BA8C23F1A" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.4.0.49575" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.4.0.49575" Name="LabVIEW NXG" Version="5.1.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Product="Token_gvi" ShortDescription="token" TargetedProduct="LabVIEW" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="ad73a9d1f8a14ad89223450599e5a259" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="token" p3:DistributionCategory="Addon" p3:MaintainerEmail="mate.lehoczky@omegabyte.hu" p3:PackageDisplayName="Token_gvi" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="30db8c38d9e745648eea5409ff48b847" Target="::Web Server" />
+		<DistributionMemberDependencySource Id="fea48e45f4ad4fbe84574a0f6b45afd7" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Source" Target="::DevSystem::Interactive::Token_gvi.gcomp" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG" Id="f83977aad49490d96727905ed7494df" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0" Version="8.4.0.49153-0+f1" />
+		<DistributionDependencyContent DisplayName="LabVIEW NXG G Standard Library Files" Id="2cc3c6afb7004a719391cbe5087dfd3e" Included="False" MaintainerName="National Instruments" Name="ni-labview-nxg-5.0.0-g-stdlib-bin" Version="8.4.0.49152-0+f0" />
+	</DistributionDefinition>
+</SourceFile>
